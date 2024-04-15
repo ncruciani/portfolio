@@ -18,6 +18,7 @@ export function Sky({ isRotating }) {
             skyRef.current.rotation.y += 0.25 * delta; // Adjust the rotation speed as needed
         }
     });
+    
 
     return (
         <mesh ref={skyRef}>
